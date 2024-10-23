@@ -1,0 +1,92 @@
+﻿line_number,content,category,character
+1,"{|class=""wikitable"" style=""width:100%;border-bottom:0;""",default,
+2,|-,default,
+3,!colspan=2|稀有度,default,
+4,|,default,
+5,{{筛选项|1|3星|[[文件:3星.png|x14px|link=]]}},option,开拓者
+6,{{筛选项|1|4星|[[文件:4星.png|x14px|link=]]}},option,开拓者
+7,{{筛选项|1|5星|[[文件:5星.png|x14px|link=]]}},option,开拓者
+8,|-,default,
+9,!colspan=2|命途,default,
+10,|,default,
+11,{{筛选项|2|毁灭|[[文件:毁灭.png|25px|link=]]毁灭}},option,开拓者
+12,{{筛选项|2|巡猎|[[文件:巡猎.png|25px|link=]]巡猎}},option,开拓者
+13,{{筛选项|2|智识|[[文件:智识.png|25px|link=]]智识}},option,开拓者
+14,{{筛选项|2|同谐|[[文件:同谐.png|25px|link=]]同谐}},option,开拓者
+15,{{筛选项|2|虚无|[[文件:虚无.png|25px|link=]]虚无}},option,开拓者
+16,{{筛选项|2|存护|[[文件:存护.png|25px|link=]]存护}},option,开拓者
+17,{{筛选项|2|丰饶|[[文件:丰饶.png|25px|link=]]丰饶}},option,开拓者
+18,|-,default,
+19,!colspan=2|获取方式,default,
+20,|,default,
+21,{{筛选项|3|跃迁}},option,开拓者
+22,{{筛选项|3|限定跃迁}},option,开拓者
+23,{{筛选项|3|活动}},option,开拓者
+24,{{筛选项|3|任务}},option,开拓者
+25,{{筛选项|3|探索}},option,开拓者
+26,{{筛选项|3|无名勋礼|无名勋礼}},option,开拓者
+27,{{筛选项|3|世界商店}},option,开拓者
+28,{{筛选项|3|模拟宇宙「黑塔的商店」}},option,开拓者
+29,{{筛选项|3|行动摘要}},option,开拓者
+30,{{筛选项|3|历战余响}},option,开拓者
+31,{{筛选项|3|奇珍琳琅}},option,开拓者
+32,{{筛选项|3|等级奖励}},option,开拓者
+33,|-,default,
+34,! rowspan=8|角色,default,
+35,! 毁灭,default,
+36,|,default,
+37,{{光锥筛选/角色|毁灭}},default,
+38,|-,default,
+39,! 巡猎,default,
+40,|,default,
+41,{{光锥筛选/角色|巡猎}},default,
+42,|-,default,
+43,! 智识,default,
+44,|,default,
+45,{{光锥筛选/角色|智识}},default,
+46,|-,default,
+47,! 同谐,default,
+48,|,default,
+49,{{光锥筛选/角色|同谐}},default,
+50,|-,default,
+51,! 虚无,default,
+52,|,default,
+53,{{光锥筛选/角色|虚无}},default,
+54,|-,default,
+55,! 存护,default,
+56,|,default,
+57,{{光锥筛选/角色|存护}},default,
+58,|-,default,
+59,! 丰饶,default,
+60,|,default,
+61,{{光锥筛选/角色|丰饶}},default,
+62,|-,default,
+63,! 其他,default,
+64,|,default,
+65,"{{模板:光锥筛选/角色测试|userparam=角色筛选,5|开拓者·毁灭|开拓者||}}",default,
+66,"{{模板:光锥筛选/角色测试|userparam=角色筛选,5|三月七|三月七||}}",default,
+67,|},default,
+68,"{|id=""CardSelectTr"" class=""CardSelect wikitable sortable"" style=""width:100%;text-align: center;margin-top:5px;font-size:13px""",default,
+69,"|-id=""CardSelectTabHeader"" class=""freeze""",default,
+70,"! style=""width:8%;min-width:5em;"" | 图标",default,
+71,"! class=""hidden-xs"" style=""width:8%;"" | 名称",default,
+72,"! class=""hidden-xs"" style=""width:8%;"" | 稀有度",default,
+73,"! style=""width:8%;"" | 命途",default,
+74,"! class=""hidden-xs"" style=""width:8%;"" |获取方式",default,
+75,"! class=""hidden-xs"" style=""width:8%;min-width:7em;"" | 相关角色",default,
+76,{{#ask:[[分类:光锥]][[实装日期::<{{LOCALYEAR}}年{{LOCALMONTH}}月{{LOCALDAY2}}日]],default,
+77,|?名称,default,
+78,|?稀有度,default,
+79,|?命途,default,
+80,|?获取方式,default,
+81,|?相关角色,default,
+82,"|sort=稀有度,实装日期,获取方式,命途",default,
+83,|template=沙盒/光锥角色相关,default,
+84,|headers=hide,default,
+85,|format=template,default,
+86,|limit=1000,default,
+87,|link=none,default,
+88,"|order=desc,desc,desc",default,
+89,|named args=1,default,
+90,}},default,
+91,|},default,

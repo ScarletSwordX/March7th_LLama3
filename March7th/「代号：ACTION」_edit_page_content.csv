@@ -1,0 +1,116 @@
+﻿line_number,content,category,character
+1,{{活动信息,default,
+2,|名称=「代号：ACTION」,content,代号
+3,|所属版本=1.2,default,
+4,|系列活动=,default,
+5,|开始时间=2023/08/05 12:00<!--填写示例： 2021/01/06 18:00-->,content,填写示例
+6,|开始描述=<!--填写带文字的开始时间描述，留空则与开始时间内容一致-->,default,
+7,|结束时间=2023/08/12 23:59<!--填写示例： 2021/01/06 18:00，永久活动请填写 9999/01/01-->,content,填写示例
+8,|结束描述=<!--填写带文字的结束时间描述，留空则与结束时间内容一致-->,default,
+9,|类型=网页活动<!--版本活动/网页活动/常规活动/特殊活动/额外活动/永久活动-->,default,
+10,|TAG=<!--选填-->,default,
+11,|条件限制=开拓等级≥11级,default,
+12,|活动描述=舞台就绪，演员就位，灯光准备——ACTION！,default,
+13,|官方公告链接=https://www.bilibili.com/opus/826221140770816032<!--填写原神驻bilibili官方的公告链接，若没有则填写米游社的公告链接 -->,default,
+14,|出场人物=卡芙卡、银狼、刃<!--填写相关自机角色或NPC，填写示例： 三月七、姬子、丹恒、瓦尔特 -->,content,填写示例
+15,|角色获取=<!--可留空-->,default,
+16,|光锥获取=<!--可留空-->,default,
+17,|介绍语=舞台就绪，演员就位，灯光准备——ACTION！<br><br>,default,
+18,「代号：ACTION」限时网页活动开启！活动期间，开拓者可以消耗灵感值，协助卡芙卡完成「剧本」封面拍摄，获得星琼、提纯以太、漫游指南、信用点等奖励。 <br><br>,content,代号
+19,点击前往：[https://mhyurl.cn/6aITFBAd 活动链接],content,点击前往
+20,|活动时间补充=※活动结束后不可领取奖励，请开拓者合理安排时间、及时领取；<br>,default,
+21,※若游戏进行停服更新，停服期间将无法参与「代号：ACTION」，请开拓者注意更新时间。,content,代号
+22,|奖励=星琼*100、提纯以太*6、漫游指南*8、信用点*60000,default,
+23,}},default,
+24,===活动说明===,default,
+25,*活动期间，开拓者可以消耗灵感值，协助卡芙卡完成「剧本」封面拍摄。,default,
+26,*活动期间，通过完成任务，可以获得灵感值，开启更多拍摄机会。,default,
+27,<br>,default,
+28,※该网页活动仅供娱乐，与游戏内实际情况无关。,default,
+29,,default,
+30,==活动奖励==,default,
+31,{{图标|材料|星琼|100}}{{图标|材料|提纯以太|6}}{{图标|材料|漫游指南|8}}{{图标|材料|信用点|60000}},default,
+32,,default,
+33,==活动剧情==,branch_content,
+34,{{人物对话|左|卡芙卡|来玩个游戏吧。}},default,
+35,{{人物对话|左|卡芙卡|我在翻看艾利欧的「剧本」。}},default,
+36,{{人物对话|左|卡芙卡|不觉得它们少了点什么吗？比如…封面。}},default,
+37,{{人物对话|右|银狼|那只是你的兴趣。}},default,
+38,{{人物对话|右|银狼|但听着有意思。如果要拍摄，算我一个。}},default,
+39,{{人物对话|右|银狼|舞台，我来搞定。灯光，得麻烦萨姆了。至于演员……}},default,
+40,{{人物对话|左|卡芙卡|阿刃，就差你了。}},default,
+41,{{人物对话|右|刃|你自己上。}},default,
+42,----,default,
+43,<tabber>,default,
+44,首次创作=,default,
+45,*卡芙卡：该从哪一幕开始呢？,content,卡芙卡
+46,*卡芙卡：我记得这个「剧本」……,content,卡芙卡
+47,|-|,default,
+48,第二次之后=,default,
+49,*卡芙卡：好了，换下一出吧……,content,卡芙卡
+50,*卡芙卡：我看看……,content,卡芙卡
+51,</tabber>,default,
+52,{{剧情选项,default,
+53,|选项1=已经定稿了。,option,开拓者
+54,|剧情1=*卡芙卡：都是些印象深刻的回忆呢。,branch_content,卡芙卡
+55,*卡芙卡：我有灵感了，首先……,content,卡芙卡
+56,{{剧情选项,default,
+57,|选项1=需要一场雨,option,开拓者
+58,|剧情1=*卡芙卡：那天下着朦胧的细雨。然后……,branch_content,卡芙卡
+59,{{剧情选项,default,
+60,|选项1=一场追猎。,option,开拓者
+61,|剧情1=*卡芙卡：是好久以前的事了呢。说服阿刃加入星核猎手可不容易。,branch_content,卡芙卡
+62,*卡芙卡：幸好艾利欧和你相谈甚欢。,content,卡芙卡
+63,*刃：哼。,content,刃
+64,*卡芙卡：好了阿刃，摆好姿势吧。,content,卡芙卡
+65,*卡芙卡：ACTION！,content,卡芙卡
+66,[[File:代号：ACTION-结局1.png|500px]],content,代号
+67,|选项2=忘了带伞。,option,开拓者
+68,|剧情2=*刃：没有这个剧本，卡芙卡。,branch_content,刃
+69,*卡芙卡：开个玩笑。,content,卡芙卡
+70,*卡芙卡：天衣五：新巴比伦…充满回忆的名字呢。,content,卡芙卡
+71,*刃：这是你和艾利欧的相遇，你自己来吧。,content,刃
+72,*卡芙卡：行，就这样吧。,content,卡芙卡
+73,*卡芙卡：ACTION！,content,卡芙卡
+74,[[File:代号：ACTION-结局2.png|500px]],content,代号
+75,}},default,
+76,|选项2=需要一片星海,option,开拓者
+77,|剧情2=*卡芙卡：记得吗？银狼加入后的第一场任务，作为新人导师，阿刃很优秀呢。,branch_content,卡芙卡
+78,*刃：那本该是你的事，卡芙卡。,content,刃
+79,*卡芙卡：但结果很顺利不是吗？你们俩意外地合拍呢。,content,卡芙卡
+80,*卡芙卡：我知道要怎么拍了。,content,卡芙卡
+81,*刃：阿刃，配合一下，戴上墨镜。,content,刃
+82,*卡芙卡：ACTION！,content,卡芙卡
+83,[[File:代号：ACTION-结局3.png|500px]],content,代号
+84,}},default,
+85,|选项2=还没写完呢。,option,开拓者
+86,|剧情2=*卡芙卡：中途拍摄剧本封面，应该不算犯规吧？,branch_content,卡芙卡
+87,*卡芙卡：让我想想，首先……,content,卡芙卡
+88,{{剧情选项,default,
+89,|选项1=需要一场雨,option,开拓者
+90,|剧情1=*卡芙卡：然后银狼，帮我骇入星穹列车。,branch_content,卡芙卡
+91,*银狼：这和下雨有什么关系？,content,银狼
+92,*卡芙卡：需要一点氛围。,content,卡芙卡
+93,*刃：好了吗？,content,刃
+94,*卡芙卡：嗯，这次由我上镜，拍摄就拜托了，阿刃。,content,卡芙卡
+95,*刃：ACTION,content,刃
+96,[[File:代号：ACTION-结局4.png|500px]],content,代号
+97,|选项2=需要一片星海,option,开拓者
+98,|剧情2=*卡芙卡：这是出为阿刃量身定制的剧目。,branch_content,卡芙卡
+99,*刃：与我无关。,content,刃
+100,*卡芙卡：只身一人重返故乡，想必有许多旧事可叙吧？,content,卡芙卡
+101,*卡芙卡：但也别太沉沦，记得按时回来哦~,content,卡芙卡
+102,*卡芙卡：ACTION！,content,卡芙卡
+103,[[File:代号：ACTION-结局5.png|500px]],content,代号
+104,}},default,
+105,}},default,
+106,==图鉴==,default,
+107,{|class=wikitable style=text-align:center width=100%,default,
+108,|-,default,
+109,|[[File:代号：ACTION-海报1.png|300px]]<br><br>'''《我即是我》'''<br><br>「听，亡灵在说话。」<br><br>''「很还原。」<div style=text-align:right>——萨姆</div>'',content,代号
+110,|[[File:代号：ACTION-海报2.png|300px]]<br><br>'''《牢笼之外》'''<br><br>她生于蛛网，却从不会被困于蛛网。<br><br>''「淋雨的特效好麻烦啊。」<div style=text-align:right>——银狼</div>'',content,代号
+111,|[[File:代号：ACTION-海报3.png|300px]]<br><br>'''《第一场游戏》'''<br><br>猜猜看，我们究竟是醒着，还是在梦里？<br><br>''「我把自己加上去了，轻而易举。」<div style=text-align:right>——银狼</div>'',content,代号
+112,|-,default,
+113,|[[File:代号：ACTION-海报4.png|300px]]<br><br>'''《星核猎手》'''<br><br>永远不要让别人知道你的真实想法。<br><br>''「你看，我就说和雨天没半点关系吧。」<div style=text-align:right>——银狼</div>'',content,代号
+114,|[[File:代号：ACTION-海报5.png|300px]]<br><br>'''《昨日的梦》'''<br><br>苦痛塑造了你，却无法毁灭你。<br><br>''「这张倒是有意境，但还是别让他老想那些了……」<div style=text-align:right>——银狼</div>'',content,代号
+115,|},default,
